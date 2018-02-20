@@ -1,0 +1,25 @@
+.button {
+  color: white;
+  border-radius: 0;
+  background: #0096e6;
+  padding: 6px 12px;
+}
+
+.data {
+  background-color: #f8f8f8;
+  padding: 10px;
+
+  .dataHeading {
+    text-align: center;
+    margin: 0;
+  }
+
+  &.block {
+    display: block;
+    margin-bottom: 20px;
+
+    span {
+      display: block;
+    }
+  }
+}
